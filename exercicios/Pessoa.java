@@ -1,4 +1,6 @@
-public class Pessoa implements Comparable<Pessoa>{
+package exercicios;
+
+public class Pessoa implements Comparable<Pessoa> {
     private String nome, pais;
     private int idade;
     private double valorGasto;
@@ -49,13 +51,13 @@ public class Pessoa implements Comparable<Pessoa>{
 
     @Override
     public int compareTo(Pessoa outraPessoa) {
-        if(this.idade < outraPessoa.getIdade()){
+        if (this.idade < outraPessoa.getIdade()) {
             return -1;
         }
-        if(this.idade > outraPessoa.getIdade()){
+        if (this.idade > outraPessoa.getIdade()) {
             return 1;
         }
         return 0;
     }
-    
+
 }

@@ -1,13 +1,12 @@
-import java.util.Comparator;
+package exercicios;
+
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Pessoa> pessoas =Dados.getPessoas();
+        List<Pessoa> pessoas = Dados.getPessoas();
 
-       
-       // Listar todas as pessoas
+        // Listar todas as pessoas
         System.out.println("Todas as pessoas:");
         for (Pessoa pessoa : pessoas) {
             System.out.println(pessoa);
@@ -73,8 +72,4 @@ public class Main {
         System.out.println("\nMédia de idade das pessoas: " + mediaIdade);
     }
 
-    
-    }
-    
-    
-
+}

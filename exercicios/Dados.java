@@ -1,8 +1,10 @@
+package exercicios;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Dados {
-     static List<Pessoa> pessoas = new ArrayList<>() {
+    static List<Pessoa> pessoas = new ArrayList<>() {
         {
             add(new Pessoa("Bree Mayer", "Peru", 25, 14.68));
             add(new Pessoa("Guinevere Mckinney", "China", 49, 69.23));
